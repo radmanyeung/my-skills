@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # My Cursor Skills
 
 這是一個共用的 Cursor Agent Skills 資料庫，可以在不同專案中使用。
@@ -44,3 +45,7 @@ git push
 這些 skill 檔案會被 Cursor AI 自動讀取，幫助 AI 更好地理解你的工作流程和常用指令。
 
 當你在 Cursor 中問問題時，AI 會參考這些檔案提供更精準的答案。
+=======
+# my-skills
+skills
+>>>>>>> b046b068f6554b4d3f6a630aab434fad26284607
