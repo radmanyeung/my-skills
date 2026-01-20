@@ -1,0 +1,78 @@
+{
+  "external_sources": [
+    {
+      "name": "awesome-claude-skills",
+      "repo": "https://github.com/ComposioHQ/awesome-claude-skills.git",
+      "description": "Official awesome Claude skills collection",
+      "sync_paths": [
+        "*/SKILL.md",
+        "*/skill.md",
+        "*/*.md"
+      ],
+      "exclude_paths": [
+        "README.md",
+        "CONTRIBUTING.md",
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "awesome-claude-skills-2",
+      "repo": "https://github.com/BehiSecc/awesome-claude-skills.git",
+      "description": "Alternative awesome Claude skills collection",
+      "sync_paths": [
+        "*/SKILL.md",
+        "*/skill.md",
+        "*/*.md"
+      ],
+      "exclude_paths": [
+        "README.md",
+        "CONTRIBUTING.md",
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "claude-code-infrastructure",
+      "repo": "https://github.com/diet103/claude-code-infrastructure-showcase.git",
+      "description": "Production-tested Claude Code infrastructure",
+      "sync_paths": [
+        ".claude/skills/**/*.md",
+        ".claude/agents/**/*.md",
+        ".claude/commands/**/*.md"
+      ],
+      "exclude_paths": [
+        "README.md"
+      ]
+    },
+    {
+      "name": "superpowers",
+      "repo": "https://github.com/obra/superpowers.git",
+      "description": "Agentic skills framework",
+      "sync_paths": [
+        "skills/**/*.md",
+        "agents/**/*.md",
+        "commands/**/*.md"
+      ],
+      "exclude_paths": [
+        "README.md",
+        "RELEASE-NOTES.md"
+      ]
+    },
+    {
+      "name": "skill-seekers",
+      "repo": "https://github.com/yusufkaraaslan/Skill_Seekers.git",
+      "description": "Tool to generate skills from documentation",
+      "sync_paths": [
+        ".claude/**/*.md",
+        "examples/**/*.md",
+        "docs/**/*.md"
+      ],
+      "exclude_paths": [
+        "README.md",
+        "CHANGELOG.md",
+        "CONTRIBUTING.md"
+      ]
+    }
+  ],
+  "last_sync": null,
+  "cache_dir": "C:\\my-skills\\.cache"
+}
