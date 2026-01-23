@@ -17,7 +17,9 @@ $sources = @(
     @{name="awesome-claude-skills-2"; repo="https://github.com/BehiSecc/awesome-claude-skills.git"},
     @{name="claude-code-infrastructure"; repo="https://github.com/diet103/claude-code-infrastructure-showcase.git"},
     @{name="superpowers"; repo="https://github.com/obra/superpowers.git"},
-    @{name="skill-seekers"; repo="https://github.com/yusufkaraaslan/Skill_Seekers.git"}
+    @{name="skill-seekers"; repo="https://github.com/yusufkaraaslan/Skill_Seekers.git"},
+    @{name="awesome-llm-skills"; repo="https://github.com/Prat011/awesome-llm-skills.git"},
+    @{name="anthropic-official-skills"; repo="https://github.com/anthropics/skills.git"}
 )
 
 Write-Host "`n=== Sync External Skills ===" -ForegroundColor Cyan

@@ -34,13 +34,15 @@ my-skills/
 - `troubleshooting.md` - Git、Python、FFmpeg、GPU 問題排解
 - `cursor-tips.md` - Cursor AI 使用技巧和最佳實踐
 
-### 外部 Skills（5 個來源）
+### 外部 Skills（7 個來源）
 從優秀的開源專案同步：
 1. **ComposioHQ/awesome-claude-skills** - 官方 awesome skills 集合
 2. **BehiSecc/awesome-claude-skills** - 社群精選 skills
 3. **diet103/claude-code-infrastructure** - 生產環境實戰基礎設施
 4. **obra/superpowers** - Agentic skills 框架和開發方法論
 5. **yusufkaraaslan/Skill_Seekers** - 從文檔自動生成 skills 的工具
+6. **Prat011/awesome-llm-skills** ⭐ - 精選 LLM skills（支援多種 AI 工具）
+7. **anthropics/skills** ⭐ - Anthropic 官方 skills 庫
 
 ---
 
@@ -75,7 +77,7 @@ cd C:\my-skills
 ```
 
 **這個腳本會：**
-1. ✅ 從 5 個 GitHub repos 克隆/更新最新內容
+1. ✅ 從 7 個 GitHub repos 克隆/更新最新內容
 2. ✅ 複製相關的 skill 檔案到 `external-skills/`
 3. ✅ 為每個檔案標記來源和同步時間
 4. ✅ 生成索引檔案 `external-skills/INDEX.md`
@@ -218,6 +220,8 @@ git push
 - [diet103/claude-code-infrastructure-showcase](https://github.com/diet103/claude-code-infrastructure-showcase)
 - [obra/superpowers](https://github.com/obra/superpowers)
 - [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)
+- [Prat011/awesome-llm-skills](https://github.com/Prat011/awesome-llm-skills) ⭐ 新增
+- [anthropics/skills](https://github.com/anthropics/skills) ⭐ 新增
 
 ---
 
@@ -238,7 +242,7 @@ git push
 ## 📊 統計
 
 - **自訂 Skills:** 4 個
-- **外部來源:** 5 個 GitHub repositories
+- **外部來源:** 7 個 GitHub repositories
 - **外部 Skills:** 執行 `.\sync_external_skills.ps1` 後查看具體數量
 
 ---

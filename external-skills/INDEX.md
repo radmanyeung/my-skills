@@ -1,6 +1,6 @@
 # External Claude Skills Index
 
-Generated: 2026-01-23 08:32:01
+Generated: 2026-01-23 08:40:29
 
 ## Sources
 
@@ -34,6 +34,18 @@ Generated: 2026-01-23 08:32:01
 - **Files:** 69
 - **Path:** `external-skills/skill-seekers/`
 
+### awesome-llm-skills
+
+- **Repository:** https://github.com/Prat011/awesome-llm-skills.git
+- **Files:** 101
+- **Path:** `external-skills/awesome-llm-skills/`
+
+### anthropic-official-skills
+
+- **Repository:** https://github.com/anthropics/skills.git
+- **Files:** 45
+- **Path:** `external-skills/anthropic-official-skills/`
+
 ---
 
 ## How to Update
@@ -52,4 +64,4 @@ cd C:\my-skills
 
 ---
 
-**Last synced:** 2026-01-23 08:32:01
+**Last synced:** 2026-01-23 08:40:29

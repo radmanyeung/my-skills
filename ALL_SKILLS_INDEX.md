@@ -1,6 +1,6 @@
 # 所有 Skills 完整索引
 
-> **自動生成於:** 2026-01-23 08:32:01  
+> **自動生成於:** 2026-01-23 08:40:29  
 > **用途:** 在 Cursor 中引用 `@skills/ALL_SKILLS_INDEX.md`，AI 會看到所有可用的 skills 並推薦最適合的。
 
 ---
@@ -9,10 +9,12 @@
 
 | 類別 | 數量 |
 |------|------|
-| **自訂 Skills** | 5 個 || **awesome-claude-skills** | 32 個 |
+| **自訂 Skills** | 5 個 || **anthropic-official-skills** | 17 個 |
+| **awesome-claude-skills** | 32 個 |
+| **awesome-llm-skills** | 30 個 |
 | **claude-code-infrastructure** | 5 個 |
 | **superpowers** | 14 個 |
-| **總計** | 56 個 |
+| **總計** | 103 個 |
 
 ---
 
@@ -26,6 +28,26 @@
 ---
 
 ## 🌟 外部 Skills（按來源分類）
+
+### anthropic-official-skills (17 個)
+
+- `external-skills/anthropic-official-skills/skills/algorithmic-art/SKILL.md`
+- `external-skills/anthropic-official-skills/skills/brand-guidelines/SKILL.md`
+- `external-skills/anthropic-official-skills/skills/canvas-design/SKILL.md`
+- `external-skills/anthropic-official-skills/skills/doc-coauthoring/SKILL.md`
+- `external-skills/anthropic-official-skills/skills/docx/SKILL.md`
+- `external-skills/anthropic-official-skills/skills/frontend-design/SKILL.md`
+- `external-skills/anthropic-official-skills/skills/internal-comms/SKILL.md`
+- `external-skills/anthropic-official-skills/skills/mcp-builder/SKILL.md`
+- `external-skills/anthropic-official-skills/skills/pdf/SKILL.md`
+- `external-skills/anthropic-official-skills/skills/pptx/SKILL.md`
+- `external-skills/anthropic-official-skills/skills/skill-creator/SKILL.md`
+- `external-skills/anthropic-official-skills/skills/slack-gif-creator/SKILL.md`
+- `external-skills/anthropic-official-skills/template/SKILL.md`
+- `external-skills/anthropic-official-skills/skills/theme-factory/SKILL.md`
+- `external-skills/anthropic-official-skills/skills/web-artifacts-builder/SKILL.md`
+- `external-skills/anthropic-official-skills/skills/webapp-testing/SKILL.md`
+- `external-skills/anthropic-official-skills/skills/xlsx/SKILL.md`
 
 ### awesome-claude-skills (32 個)
 
@@ -61,6 +83,39 @@
 - `external-skills/awesome-claude-skills/video-downloader/SKILL.md`
 - `external-skills/awesome-claude-skills/webapp-testing/SKILL.md`
 - `external-skills/awesome-claude-skills/document-skills/xlsx/SKILL.md`
+
+### awesome-llm-skills (30 個)
+
+- `external-skills/awesome-llm-skills/algorithmic-art/SKILL.md`
+- `external-skills/awesome-llm-skills/artifacts-builder/SKILL.md`
+- `external-skills/awesome-llm-skills/brand-guidelines/SKILL.md`
+- `external-skills/awesome-llm-skills/canvas-design/SKILL.md`
+- `external-skills/awesome-llm-skills/changelog-generator/SKILL.md`
+- `external-skills/awesome-llm-skills/competitive-ads-extractor/SKILL.md`
+- `external-skills/awesome-llm-skills/content-research-writer/SKILL.md`
+- `external-skills/awesome-llm-skills/document-skills/docx/SKILL.md`
+- `external-skills/awesome-llm-skills/domain-name-brainstormer/SKILL.md`
+- `external-skills/awesome-llm-skills/file-organizer/SKILL.md`
+- `external-skills/awesome-llm-skills/image-enhancer/SKILL.md`
+- `external-skills/awesome-llm-skills/internal-comms/SKILL.md`
+- `external-skills/awesome-llm-skills/invoice-organizer/SKILL.md`
+- `external-skills/awesome-llm-skills/lead-research-assistant/SKILL.md`
+- `external-skills/awesome-llm-skills/mcp-builder/SKILL.md`
+- `external-skills/awesome-llm-skills/meeting-insights-analyzer/SKILL.md`
+- `external-skills/awesome-llm-skills/notion-knowledge-capture/SKILL.md`
+- `external-skills/awesome-llm-skills/notion-meeting-intelligence/SKILL.md`
+- `external-skills/awesome-llm-skills/notion-research-documentation/SKILL.md`
+- `external-skills/awesome-llm-skills/notion-spec-to-implementation/SKILL.md`
+- `external-skills/awesome-llm-skills/document-skills/pdf/SKILL.md`
+- `external-skills/awesome-llm-skills/document-skills/pptx/SKILL.md`
+- `external-skills/awesome-llm-skills/raffle-winner-picker/SKILL.md`
+- `external-skills/awesome-llm-skills/skill-creator/SKILL.md`
+- `external-skills/awesome-llm-skills/slack-gif-creator/SKILL.md`
+- `external-skills/awesome-llm-skills/template-skill/SKILL.md`
+- `external-skills/awesome-llm-skills/theme-factory/SKILL.md`
+- `external-skills/awesome-llm-skills/video-downloader/SKILL.md`
+- `external-skills/awesome-llm-skills/webapp-testing/SKILL.md`
+- `external-skills/awesome-llm-skills/document-skills/xlsx/SKILL.md`
 
 ### claude-code-infrastructure (5 個)
 
@@ -185,6 +240,6 @@ cd C:\my-skills
 
 ---
 
-**上次更新：** 2026-01-23 08:32:01  
-**總 Skills 數量：** 56 個  
+**上次更新：** 2026-01-23 08:40:29  
+**總 Skills 數量：** 103 個  
 **自動生成：** ✅ 由 sync_external_skills.ps1 產生
