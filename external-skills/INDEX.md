@@ -1,13 +1,13 @@
-﻿# External Claude Skills Index
+# External Claude Skills Index
 
-Generated: 2026-01-20 10:00:38
+Generated: 2026-01-23 08:32:01
 
 ## Sources
 
 ### awesome-claude-skills
 
 - **Repository:** https://github.com/ComposioHQ/awesome-claude-skills.git
-- **Files:** 56
+- **Files:** 57
 - **Path:** `external-skills/awesome-claude-skills/`
 
 ### awesome-claude-skills-2
@@ -31,7 +31,7 @@ Generated: 2026-01-20 10:00:38
 ### skill-seekers
 
 - **Repository:** https://github.com/yusufkaraaslan/Skill_Seekers.git
-- **Files:** 64
+- **Files:** 69
 - **Path:** `external-skills/skill-seekers/`
 
 ---
@@ -52,4 +52,4 @@ cd C:\my-skills
 
 ---
 
-**Last synced:** 2026-01-20 10:00:38
+**Last synced:** 2026-01-23 08:32:01

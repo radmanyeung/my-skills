@@ -71,6 +71,33 @@
         "CHANGELOG.md",
         "CONTRIBUTING.md"
       ]
+    },
+    {
+      "name": "awesome-llm-skills",
+      "repo": "https://github.com/Prat011/awesome-llm-skills.git",
+      "description": "Curated LLM skills for Claude Code, Codex, Gemini CLI",
+      "sync_paths": [
+        "*/SKILL.md",
+        "*/*.md"
+      ],
+      "exclude_paths": [
+        "README.md",
+        "CONTRIBUTING.md",
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "anthropic-official-skills",
+      "repo": "https://github.com/anthropics/skills.git",
+      "description": "Official Anthropic skills repository",
+      "sync_paths": [
+        "skills/**/SKILL.md",
+        "skills/**/*.md"
+      ],
+      "exclude_paths": [
+        "README.md",
+        "THIRD_PARTY_NOTICES.md"
+      ]
     }
   ],
   "last_sync": null,
