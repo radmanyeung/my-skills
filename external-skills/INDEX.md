@@ -1,6 +1,6 @@
 # External Claude Skills Index
 
-Generated: 2026-01-23 08:40:29
+Generated: 2026-01-26 10:04:38
 
 ## Sources
 
@@ -51,7 +51,7 @@ Generated: 2026-01-23 08:40:29
 ## How to Update
 
 ``powershell
-cd C:\my-skills
+# 在 skills 目錄下執行
 .\sync_external_skills.ps1
 ``
 
@@ -64,4 +64,4 @@ cd C:\my-skills
 
 ---
 
-**Last synced:** 2026-01-23 08:40:29
+**Last synced:** 2026-01-26 10:04:38

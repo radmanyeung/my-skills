@@ -1,6 +1,6 @@
 # 所有 Skills 完整索引
 
-> **自動生成於:** 2026-01-23 08:40:29  
+> **自動生成於:** 2026-01-26 10:04:38  
 > **用途:** 在 Cursor 中引用 `@skills/ALL_SKILLS_INDEX.md`，AI 會看到所有可用的 skills 並推薦最適合的。
 
 ---
@@ -226,7 +226,7 @@
 此索引會在每次執行同步腳本時自動更新：
 
 ``powershell
-cd C:\my-skills
+# 在 skills 目錄下執行
 .\sync_external_skills.ps1
 ``
 
@@ -240,6 +240,6 @@ cd C:\my-skills
 
 ---
 
-**上次更新：** 2026-01-23 08:40:29  
+**上次更新：** 2026-01-26 10:04:38  
 **總 Skills 數量：** 103 個  
 **自動生成：** ✅ 由 sync_external_skills.ps1 產生

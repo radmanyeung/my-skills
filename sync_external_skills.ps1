@@ -6,7 +6,7 @@ param(
 $ErrorActionPreference = "Stop"
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 
-$SkillsRoot = "C:\my-skills"
+$SkillsRoot = $PSScriptRoot
 $CacheDir = Join-Path $SkillsRoot ".cache"
 $ExternalDir = Join-Path $SkillsRoot "external-skills"
 $SourcesFile = Join-Path $SkillsRoot ".sources.json"
@@ -146,7 +146,7 @@ $indexContent += @"
 ## How to Update
 
 ````powershell
-cd C:\my-skills
+# 在 skills 目錄下執行
 .\sync_external_skills.ps1
 ````
 
@@ -331,7 +331,7 @@ $content += @"
 此索引會在每次執行同步腳本時自動更新：
 
 ````powershell
-cd C:\my-skills
+# 在 skills 目錄下執行
 .\sync_external_skills.ps1
 ````
 
@@ -363,8 +363,52 @@ Write-Host "Output: $ExternalDir" -ForegroundColor Green
 Write-Host "`nIndexes created:" -ForegroundColor Yellow
 Write-Host "  - external-skills/INDEX.md (external skills only)" -ForegroundColor Gray
 Write-Host "  - ALL_SKILLS_INDEX.md (complete index)" -ForegroundColor Gray
-Write-Host "`nNext steps:" -ForegroundColor Cyan
-Write-Host "  1. Review: cat ALL_SKILLS_INDEX.md"
-Write-Host "  2. Commit: git add . && git commit -m 'Sync external skills + update index'"
-Write-Host "  3. Push: git push"
+
+# Git operations
+Write-Host "`n=== Git 操作 ===" -ForegroundColor Cyan
+Push-Location $SkillsRoot
+try {
+    # Check if there are changes
+    $status = git status --porcelain
+    if ($status) {
+        Write-Host "檢測到變更，準備提交..." -ForegroundColor Yellow
+        
+        # Ask if user wants to commit
+        $commitResponse = Read-Host "`n是否要提交變更到本地倉庫？ (y/N)"
+        
+        if ($commitResponse -match "^[yY]") {
+            Write-Host "正在提交變更..." -ForegroundColor Yellow
+            git add .
+            git commit -m "Sync external skills + update index ($(Get-Date -Format 'yyyy-MM-dd HH:mm'))"
+            
+            if ($LASTEXITCODE -eq 0) {
+                Write-Host "✅ Commit 成功！" -ForegroundColor Green
+                
+                # Ask user if they want to push
+                $pushResponse = Read-Host "`n是否要推送到遠端倉庫？ (y/N)"
+                if ($pushResponse -match "^[yY]") {
+                    Write-Host "正在推送到遠端..." -ForegroundColor Yellow
+                    git push
+                    if ($LASTEXITCODE -eq 0) {
+                        Write-Host "✅ Push 成功！" -ForegroundColor Green
+                    } else {
+                        Write-Host "❌ Push 失敗" -ForegroundColor Red
+                    }
+                } else {
+                    Write-Host "ℹ️  已跳過 push（稍後可手動執行: git push）" -ForegroundColor Gray
+                }
+            } else {
+                Write-Host "❌ Commit 失敗" -ForegroundColor Red
+            }
+        } else {
+            Write-Host "ℹ️  已跳過 commit（稍後可手動執行: git add . && git commit -m 'message'）" -ForegroundColor Gray
+        }
+    } else {
+        Write-Host "ℹ️  沒有變更需要提交" -ForegroundColor Gray
+    }
+}
+finally {
+    Pop-Location
+}
+
 Write-Host ""
