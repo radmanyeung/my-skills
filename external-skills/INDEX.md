@@ -1,6 +1,6 @@
 # External Claude Skills Index
 
-Generated: 2026-01-26 10:04:38
+Generated: 2026-01-27 11:56:02
 
 ## Sources
 
@@ -64,4 +64,4 @@ Generated: 2026-01-26 10:04:38
 
 ---
 
-**Last synced:** 2026-01-26 10:04:38
+**Last synced:** 2026-01-27 11:56:02
